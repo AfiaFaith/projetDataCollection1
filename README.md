@@ -13,7 +13,7 @@ ProjectDC: qui est le dossier de base
 		Le fichier runcode.py contient les codes pour compiler le code du fichier factories
 		Le fichier devisesbceao.py contient le code pour collecter les données demandées par le projet sur le site web de la BCEAO (PATH_URL = 'cours/cours-des-devises-contre-Franc-CFA-appliquer-aux-transferts') 
 		Le fichier rest_countries.py permet de faire un mapping entre les pays sélectionnés et leur drapeaux et aussi de stocker ces informations dans une base de données MySQL.
-		
+		Les fichiers apistruct.py, main.py; dbstructure.py contiennent les codes pour la creation de notre API
 
 
 
