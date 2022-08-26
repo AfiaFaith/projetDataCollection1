@@ -18,7 +18,7 @@ def get_db():
         db.close()
 
 
-@app.get("/tb_projet/", response_model=list[schemas.tb_projet])
+@app.get("/tb_projet/", response_model=list[apistruct.tb_projet])
 def read_tb_projet(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
     tb_projet = crud.get_tb_projet(db, skip=skip, limit=limit)
     return tb_projet
